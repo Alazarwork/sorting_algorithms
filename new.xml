@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<ShellLauncherConfiguration xmlns="http://schemas.microsoft.com/ShellLauncher/2018/Configuration"> 
+  <Profiles> 
+    <Profile ID="{24A7309204F3F-44CC-8375-53F13FE213F7}"> 
+      <Shell Shell="%ProgramFiles%\Internet Explorer\iexplore.exe -k www.bing.com" /> 
+    </Profile> 
+  </Profiles> 
+  <Configs>
+    <!--local account-->
+    <Account Name="ShellLauncherUser"/>
+    <Profile ID="{24A7309204F3F-44CC-8375-53F13FE213F7}"/>
+  </Configs>
+</ShellLauncherConfiguration>
